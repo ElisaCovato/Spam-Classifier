@@ -23,7 +23,7 @@ The classifiers used are:
 - [(Linear) SVM](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html)
 
 ### Dataset
-The above classifier are trained on the [SpamAssassin public mail corpus](http://spamassassin.apache.org/old/publiccorpus/) which consists of a seleciton of mail messages, labelled as spam or ham.
+The above classifier are trained on the [SpamAssassin public mail corpus](http://spamassassin.apache.org/old/publiccorpus/) which consists of a selection of mail messages, labelled as spam or ham.
 
 ### Evaluation
 Each classifier is evaluated using the following performance measures:
@@ -34,13 +34,13 @@ Each classifier is evaluated using the following performance measures:
 * f1 score
 
 ## How to start
-1. Check out that you have a working Python installation, preferably Python 3
-2. Git clone the [repo](add link) and cd inside directory
+1. Check out that you have a working Python(preferably Python 3) and Jupyter Notebook installation 
+2. Git clone the [repo](https://github.com/ElisaCovato/Spam-Classifier.git) and cd inside directory
 3. Install requirements: 
 
     `pip install -r requirements.txt`
 4. Check that all the modules have been installed, and download the mail datasets : 
     
     `python startup.py`
-5. Use the jupyter notebook [Spam classifier](add link) to download and familiarize yourself with the data, train, evaluate and fine tune the classifiers, and pick the 'best' performing ones.
+5. Use the jupyter notebook [Spam classifier](https://github.com/ElisaCovato/Spam-Classifier/blob/main/Spam%20classifier.ipynb) to download and familiarize yourself with the data, train, evaluate and fine tune the classifiers, and pick the 'best' performing ones.
     
