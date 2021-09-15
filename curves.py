@@ -138,7 +138,6 @@ class PlotCurves():
 
 
 
-
 	def compute_scores(self, classifier):
 		classifier = self.clf[classifier]
 		method = 'decision_function'
