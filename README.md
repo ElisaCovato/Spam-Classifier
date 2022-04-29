@@ -7,7 +7,7 @@ The goal is to train a classification algorithm to differentiate between _spam_ 
 To reach the goal, several classification models are first trained on the Apache SpamAssassin dataset. After evaluating each classifier, the 3 best performing one are  fine-tuned and re-evaluated again. The 'best' classifier is then saved as .pkl file.
 
 
-All the steps are contained and documented in the Jupyter Notebok [Spam classifier](https://github.com/ElisaCovato/Spam-Classifier/blob/main/Spam%20classifier.ipynb)). To lighten the amount of line of codes in the notebook, all the functions needed have been collected in different scripts - the notebook will take care to call and run such functions.
+All the steps are contained and documented in the Jupyter Notebok [Spam classifier](https://github.com/ElisaCovato/Spam-Classifier/blob/main/Spam%20classifier.ipynb). To lighten the amount of line of codes in the notebook, all the functions needed have been collected in different scripts - the notebook will take care to call and run such functions.
 
 
 
